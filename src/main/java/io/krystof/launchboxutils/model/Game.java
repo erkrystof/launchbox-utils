@@ -1,9 +1,9 @@
 package io.krystof.launchboxutils.model;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 import org.pojomatic.Pojomatic;
 import org.pojomatic.annotations.AutoProperty;
@@ -17,9 +17,9 @@ public class Game {
 
 	private String platform;
 
-	private String publisher;
+	private Set<String> publishers = new HashSet<>();
 
-	private String developer;
+	private Set<String> developers = new HashSet<>();
 
 	private String databaseId;
 
@@ -27,11 +27,13 @@ public class Game {
 
 	private String videoUrl;
 
-	private List<String> genres = new ArrayList<>();
+	private Set<String> genres = new HashSet<>();
 
 	private Map<String, String> customFields = new HashMap<>();
 
 	private String series;
+
+	private Integer releaseYear;
 
 	private String notes;
 
@@ -74,21 +76,7 @@ public class Game {
 		this.platform = platform;
 	}
 
-	public String getPublisher() {
-		return publisher;
-	}
 
-	public void setPublisher(String publisher) {
-		this.publisher = publisher;
-	}
-
-	public String getDeveloper() {
-		return developer;
-	}
-
-	public void setDeveloper(String developer) {
-		this.developer = developer;
-	}
 
 	public String getDatabaseId() {
 		return databaseId;
@@ -114,14 +102,6 @@ public class Game {
 		this.videoUrl = videoUrl;
 	}
 
-	public List<String> getGenres() {
-		return genres;
-	}
-
-	public void setGenres(List<String> genres) {
-		this.genres = genres;
-	}
-
 	public Map<String, String> getCustomFields() {
 		return customFields;
 	}
@@ -144,6 +124,38 @@ public class Game {
 
 	public void setSeries(String series) {
 		this.series = series;
+	}
+
+	public Set<String> getPublishers() {
+		return publishers;
+	}
+
+	public void setPublishers(Set<String> publishers) {
+		this.publishers = publishers;
+	}
+
+	public Set<String> getDevelopers() {
+		return developers;
+	}
+
+	public void setDevelopers(Set<String> developers) {
+		this.developers = developers;
+	}
+
+	public Set<String> getGenres() {
+		return genres;
+	}
+
+	public void setGenres(Set<String> genres) {
+		this.genres = genres;
+	}
+
+	public Integer getReleaseYear() {
+		return releaseYear;
+	}
+
+	public void setReleaseYear(Integer releaseYear) {
+		this.releaseYear = releaseYear;
 	}
 
 }

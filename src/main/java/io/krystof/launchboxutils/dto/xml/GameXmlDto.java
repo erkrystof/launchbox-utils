@@ -33,13 +33,16 @@ public class GameXmlDto {
 	private String videoUrl;
 
 	@JsonProperty("Genre")
-	private String genreStringRaw;
+	private String genre;
 
 	@JsonProperty("Series")
 	private String series;
 
 	@JsonProperty("Notes")
 	private String notes;
+
+	@JsonProperty("ReleaseDate")
+	private String releaseDate;
 
 	@Override
 	public boolean equals(Object o) {
@@ -120,13 +123,6 @@ public class GameXmlDto {
 		this.id = id;
 	}
 
-	public String getGenreStringRaw() {
-		return genreStringRaw;
-	}
-
-	public void setGenreStringRaw(String genreStringRaw) {
-		this.genreStringRaw = genreStringRaw;
-	}
 
 	public String getVideoUrl() {
 		return videoUrl;
@@ -142,5 +138,21 @@ public class GameXmlDto {
 
 	public void setSeries(String series) {
 		this.series = series;
+	}
+
+	public String getGenre() {
+		return genre;
+	}
+
+	public void setGenre(String genre) {
+		this.genre = genre;
+	}
+
+	public String getReleaseDate() {
+		return releaseDate;
+	}
+
+	public void setReleaseDate(String releaseDate) {
+		this.releaseDate = releaseDate;
 	}
 }

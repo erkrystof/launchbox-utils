@@ -25,6 +25,7 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
@@ -36,10 +37,12 @@
 			<artifactId>pojomatic</artifactId>
 			<version>2.2.1</version>
 		</dependency>
+
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-xml</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -64,6 +67,10 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<scm>
+		<connection>scm:git:https://github.com/erkrystof/launchbox-utils.git</connection>
+		<developerConnection>scm:git:https://github.com/erkrystof/launchbox-utils.git</developerConnection>
+		<url>https://github.com/erkrystof/launchbox-utils.git</url>
+	</scm>
 
 </project>

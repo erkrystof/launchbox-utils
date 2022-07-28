@@ -27,7 +27,7 @@ class PlatformXmlDtoToPlatformGameDataConverterTest {
 		PlatformGameData platformGameData = converter.apply(platformFileDto, path.getFileName().toString());
 		assertEquals("Commodore 64.xml", platformGameData.getPlatformName());
 		platformGameData.getGames().forEach(game -> {
-			LOG.info("Game: {}\t{}", game.getTitle(), game.getSeries());
+			LOG.info("Game: {}\t{}", game.getTitle(), game);
 		});
 
 	}

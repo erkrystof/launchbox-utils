@@ -1,5 +1,7 @@
 package io.krystof.launchboxutils.converters;
 
+import java.util.HashSet;
+import java.util.Set;
 import java.util.function.BiFunction;
 
 import org.apache.commons.lang3.StringUtils;
@@ -19,20 +21,20 @@ public class PlatformXmlDtoToPlatformGameDataConverter
 		for (GameXmlDto gameXmlDto : platformFileXmlDto.getGames()) {
 			Game game = new Game();
 			game.setDatabaseId(gameXmlDto.getDatabaseId());
-			game.setDeveloper(gameXmlDto.getDeveloper());
+			game.setDevelopers(convertStringToSet(gameXmlDto.getDeveloper()));
 			game.setId(gameXmlDto.getId());
 			game.setNotes(gameXmlDto.getNotes());
 			game.setPlatform(gameXmlDto.getPlatform());
-			game.setPublisher(gameXmlDto.getPublisher());
+			game.setPublishers(convertStringToSet(gameXmlDto.getPublisher()));
 			game.setTitle(gameXmlDto.getTitle());
 			game.setVideoUrl(gameXmlDto.getVideoUrl());
 			game.setWikipediaUrl(gameXmlDto.getWikipediaUrl());
 			game.setSeries(gameXmlDto.getSeries());
-			if (StringUtils.isNotEmpty(gameXmlDto.getGenreStringRaw())) {
-				for (String genreToken : gameXmlDto.getGenreStringRaw().split(";")) {
-					game.getGenres().add(StringUtils.trim(genreToken));
-				}
+			game.setGenres(convertStringToSet(gameXmlDto.getGenre()));
+			if (StringUtils.isNotBlank(gameXmlDto.getReleaseDate())) {
+				game.setReleaseYear(Integer.parseInt(StringUtils.substringBefore(gameXmlDto.getReleaseDate(), "-")));
 			}
+
 			platformFileXmlDto.getCustomFields().stream().filter(cf -> cf.getGameId().equals(game.getId()))
 					.forEach(cf -> {
 						game.getCustomFields().put(cf.getName(), cf.getValue());
@@ -40,5 +42,15 @@ public class PlatformXmlDtoToPlatformGameDataConverter
 			pgd.getGames().add(game);
 		}
 		return pgd;
+	}
+
+	private Set<String> convertStringToSet(String rawString) {
+		Set<String> returnValue = new HashSet<>();
+		if (StringUtils.isNotEmpty(rawString)) {
+			for (String token : rawString.split(";")) {
+				returnValue.add(StringUtils.trim(token));
+			}
+		}
+		return returnValue;
 	}
 }
