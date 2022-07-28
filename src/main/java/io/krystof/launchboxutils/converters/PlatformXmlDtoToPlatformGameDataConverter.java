@@ -4,10 +4,10 @@ import java.util.function.BiFunction;
 
 import org.apache.commons.lang3.StringUtils;
 
-import io.krystof.launchboxutils.dto.Game;
-import io.krystof.launchboxutils.dto.PlatformGameData;
 import io.krystof.launchboxutils.dto.xml.GameXmlDto;
 import io.krystof.launchboxutils.dto.xml.PlatformFileXmlDto;
+import io.krystof.launchboxutils.model.Game;
+import io.krystof.launchboxutils.model.PlatformGameData;
 
 public class PlatformXmlDtoToPlatformGameDataConverter
 		implements BiFunction<PlatformFileXmlDto, String, PlatformGameData> {

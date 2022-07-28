@@ -1,4 +1,4 @@
-package io.krystof.launchboxutils.dto;
+package io.krystof.launchboxutils.model;
 
 import java.util.ArrayList;
 import java.util.HashMap;

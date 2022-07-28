@@ -10,8 +10,8 @@ import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import io.krystof.launchboxutils.dto.PlatformGameData;
 import io.krystof.launchboxutils.dto.xml.PlatformFileXmlDto;
+import io.krystof.launchboxutils.model.PlatformGameData;
 import io.krystof.launchboxutils.parser.PlatformsFileXmlParser;
 
 class PlatformXmlDtoToPlatformGameDataConverterTest {
