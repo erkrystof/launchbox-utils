@@ -1,0 +1,525 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Settings>
+    <AlwaysShowImagesFullscreen>true</AlwaysShowImagesFullscreen>
+    <AlwaysUseDefaultBackground>false</AlwaysUseDefaultBackground>
+    <AutoBackup>true</AutoBackup>
+    <AutoPlayMusic>true</AutoPlayMusic>
+    <BackgroundFade>0</BackgroundFade>
+    <ButtonBar>true</ButtonBar>
+    <DarkBackgroundColor>-15724528</DarkBackgroundColor>
+    <FiltersWidth>559</FiltersWidth>
+    <ForegroundColor>-1</ForegroundColor>
+    <FormLocationX>0</FormLocationX>
+    <FormLocationY>0</FormLocationY>
+    <FormMaximized>true</FormMaximized>
+    <FormSizeX>1920</FormSizeX>
+    <FormSizeY>1040</FormSizeY>
+    <HighlightedBackgroundColor>-13684945</HighlightedBackgroundColor>
+    <HighlightedBorderColor>-13684945</HighlightedBorderColor>
+    <LightBackgroundColor>-15198184</LightBackgroundColor>
+    <MenuBorderColor>-12105907</MenuBorderColor>
+    <NoWelcomeVersion>12.13</NoWelcomeVersion>
+    <ScrollBar>true</ScrollBar>
+    <SelectedBackgroundColor>-12491628</SelectedBackgroundColor>
+    <ShowFilters>true</ShowFilters>
+    <ShowIconsOnHover>true</ShowIconsOnHover>
+    <ShowVersions>false</ShowVersions>
+    <SortBy>Title</SortBy>
+    <SortByDesc>false</SortByDesc>
+    <UseDefaultWindowsBorder>false</UseDefaultWindowsBorder>
+    <UseDefaultWindowsStyles>false</UseDefaultWindowsStyles>
+    <WindowBorderColor>-10197916</WindowBorderColor>
+    <SideBarSize>250</SideBarSize>
+    <ShowSideBar>true</ShowSideBar>
+    <SideBarField>Platform Category</SideBarField>
+    <EnableLocalDBSearch>true</EnableLocalDBSearch>
+    <ColorizeGameDividers>true</ColorizeGameDividers>
+    <ColorizeScrollBar>true</ColorizeScrollBar>
+    <ColorizeGameSelections>false</ColorizeGameSelections>
+    <ColorizeGameDetailsPopup>false</ColorizeGameDetailsPopup>
+    <ColorizeBackgroundFade>false</ColorizeBackgroundFade>
+    <UseRandomColorThemeOnStartup>false</UseRandomColorThemeOnStartup>
+    <GameAspectRatio>0.75</GameAspectRatio>
+    <GameSpacingHorizontal>30</GameSpacingHorizontal>
+    <GameSpacingVertical>30</GameSpacingVertical>
+    <GamePaddingVertical>17</GamePaddingVertical>
+    <GamePaddingHorizontal>15</GamePaddingHorizontal>
+    <GameTextLines>2</GameTextLines>
+    <GameTextSpacingVertical>5</GameTextSpacingVertical>
+    <GameFont>Segoe UI, 10.5pt</GameFont>
+    <SidebarFont>Segoe UI, 10.5pt</SidebarFont>
+    <GameDetailsLargeFont>Segoe UI, 12pt</GameDetailsLargeFont>
+    <GameDetailsSmallFont>Segoe UI, 10.5pt</GameDetailsSmallFont>
+    <GameDetailsTitleFont>Segoe UI, 13.5pt, style=Bold</GameDetailsTitleFont>
+    <ID>79b67f1c-d107-42d1-aa89-cd935830b2d7</ID>
+    <HideSidebarNone>true</HideSidebarNone>
+    <HideSidebarExists>true</HideSidebarExists>
+    <ShowSidebarCounts>false</ShowSidebarCounts>
+    <AlignSidebarCountsRight>false</AlignSidebarCountsRight>
+    <SidebarNoneText>(None)</SidebarNoneText>
+    <SidebarExistsText>(Exists)</SidebarExistsText>
+    <SidebarAllText>All</SidebarAllText>
+    <HideSidebarAll>false</HideSidebarAll>
+    <BetaUpgrades>false</BetaUpgrades>
+    <MinimizeOnGameLaunch>false</MinimizeOnGameLaunch>
+    <RestoreOnGameExit>false</RestoreOnGameExit>
+    <ShowSidebarScreenshots>true</ShowSidebarScreenshots>
+    <ShowSidebarFanart>true</ShowSidebarFanart>
+    <ControllerSelectButton>1</ControllerSelectButton>
+    <ControllerContextMenuButton>2</ControllerContextMenuButton>
+    <ControllerPlayButton>3</ControllerPlayButton>
+    <ControllerTopMenuButton>4</ControllerTopMenuButton>
+    <ControllerImagesButton>-1</ControllerImagesButton>
+    <ControllerSideBarButton>5</ControllerSideBarButton>
+    <ControllerGameDetailsButton>6</ControllerGameDetailsButton>
+    <ControllerFullscreenButton>-1</ControllerFullscreenButton>
+    <ControllerZoomInButton>-1</ControllerZoomInButton>
+    <ControllerZoomOutButton>-1</ControllerZoomOutButton>
+    <UseAllControllers>false</UseAllControllers>
+    <UseControllerAutomation>false</UseControllerAutomation>
+    <ControllerAutomationHoldButton>7</ControllerAutomationHoldButton>
+    <ControllerAutomationCloseButton>8</ControllerAutomationCloseButton>
+    <ControllerAutomationStartButton>1</ControllerAutomationStartButton>
+    <ControllerAutomationVolumeUpButton>6</ControllerAutomationVolumeUpButton>
+    <ControllerAutomationVolumeDownButton>5</ControllerAutomationVolumeDownButton>
+    <ControllerPageUpButton>-1</ControllerPageUpButton>
+    <ControllerPageDownButton>-1</ControllerPageDownButton>
+    <ControllerFlipBoxButton>-1</ControllerFlipBoxButton>
+    <ControllerPlayMusicButton>-1</ControllerPlayMusicButton>
+    <ControllerZScroll>false</ControllerZScroll>
+    <ImagesReorganizedFor5>true</ImagesReorganizedFor5>
+    <ShowHiddenGames>false</ShowHiddenGames>
+    <ShowBrokenGames>true</ShowBrokenGames>
+    <ListView>false</ListView>
+    <EmuMoviesUserId>emulationmovies@krystof.io</EmuMoviesUserId>
+    <EmuMoviesPassword>Xj51iuX92cMw2iTl1Js7r8xRiCahUZbmNuGJr8SXjp4=</EmuMoviesPassword>
+    <ShowDetailsVideo>false</ShowDetailsVideo>
+    <ShowDetailAchievements>true</ShowDetailAchievements>
+    <AutoPlayDetailsVideo>false</AutoPlayDetailsVideo>
+    <ShowDetailPlatform>true</ShowDetailPlatform>
+    <ShowDetailReleaseDate>true</ShowDetailReleaseDate>
+    <ShowDetailDeveloper>true</ShowDetailDeveloper>
+    <ShowDetailPublisher>true</ShowDetailPublisher>
+    <ShowDetailRating>true</ShowDetailRating>
+    <ShowDetailGenres>true</ShowDetailGenres>
+    <ShowDetailSeries>true</ShowDetailSeries>
+    <ShowDetailPlayMode>true</ShowDetailPlayMode>
+    <ShowDetailRegion>true</ShowDetailRegion>
+    <ShowDetailStatus>true</ShowDetailStatus>
+    <ShowDetailSource>true</ShowDetailSource>
+    <ShowDetailPortable>true</ShowDetailPortable>
+    <ShowDetailInstalled>true</ShowDetailInstalled>
+    <ShowDetailFileName>true</ShowDetailFileName>
+    <ShowDetailCustomFields>true</ShowDetailCustomFields>
+    <ShowDetailLastPlayed>true</ShowDetailLastPlayed>
+    <ShowDetailPlayCount>true</ShowDetailPlayCount>
+    <ShowDetailPlayTime>true</ShowDetailPlayTime>
+    <ShowDetailStarRating>true</ShowDetailStarRating>
+    <ShowDetailNotes>true</ShowDetailNotes>
+    <ShowDetailDates>true</ShowDetailDates>
+    <VideoPlaybackEngine>Windows Media Player</VideoPlaybackEngine>
+    <ShowLaunchBoxSplashScreen>true</ShowLaunchBoxSplashScreen>
+    <LastMetadataUpdate>2022-07-26T20:39:22.8154818-05:00</LastMetadataUpdate>
+    <LastMetadataVersion>12.13</LastMetadataVersion>
+    <ImageFoldersRenamedFor63>true</ImageFoldersRenamedFor63>
+    <FrontImageTypePriorities>GOG Poster,Steam Poster,Epic Games Poster,Amazon Poster,Box - Front,Box - Front - Reconstructed,Advertisement Flyer - Front,Origin Poster,Uplay Thumbnail,Fanart - Box - Front,Steam Banner,Amazon Poster</FrontImageTypePriorities>
+    <BackImageTypePriorities>Box - Back,Box - Back - Reconstructed,Advertisement Flyer - Back,Fanart - Box - Back</BackImageTypePriorities>
+    <BackgroundImageTypePriorities>Epic Games Background,Uplay Background,Origin Background,Amazon Background,Fanart - Background</BackgroundImageTypePriorities>
+    <ScreenshotsImageTypePriorities>Screenshot - Game Title,Screenshot - Game Select,Screenshot - Gameplay,Screenshot - High Scores,Screenshot - Game Over,Steam Screenshot,GOG Screenshot,Epic Games Screenshot,Origin Screenshot,Amazon Screenshot</ScreenshotsImageTypePriorities>
+    <MarqueeImageTypePriorities>Arcade - Marquee,Banner,Steam Banner</MarqueeImageTypePriorities>
+    <Box3dImageTypePriorities>Box - 3D</Box3dImageTypePriorities>
+    <CartFrontImageTypePriorities>Cart - Front,Fanart - Cart - Front,Disc,Fanart - Disc</CartFrontImageTypePriorities>
+    <CartBackImageTypePriorities>Cart - Back,Fanart - Cart - Back</CartBackImageTypePriorities>
+    <Cart3dImageTypePriorities>Cart - 3D</Cart3dImageTypePriorities>
+    <DefaultImageGroup>Boxes</DefaultImageGroup>
+    <AllowDeletingRoms>false</AllowDeletingRoms>
+    <EnableLedBlinky>false</EnableLedBlinky>
+    <RegionPriorities>North America,United States</RegionPriorities>
+    <DebugLog>false</DebugLog>
+    <ShuffleMusic>true</ShuffleMusic>
+    <BackgroundUpdateDownloads>true</BackgroundUpdateDownloads>
+    <ImportDefaultRemoveRoughMatches>true</ImportDefaultRemoveRoughMatches>
+    <ImportDefaultSearchGamesDatabase>true</ImportDefaultSearchGamesDatabase>
+    <ImportDefaultFilesFromSpecifiedFoldersOnly>false</ImportDefaultFilesFromSpecifiedFoldersOnly>
+    <ImportDefaultAlsoCopyMoveAllFiles>true</ImportDefaultAlsoCopyMoveAllFiles>
+    <ImportDefaultLookForPdfFiles>true</ImportDefaultLookForPdfFiles>
+    <ImportDefaultCombineRoms>true</ImportDefaultCombineRoms>
+    <ImportDefaultRenameGameFolders>false</ImportDefaultRenameGameFolders>
+    <ImportDefaultLookForDosBoxConfFiles>true</ImportDefaultLookForDosBoxConfFiles>
+    <ImportDefaultLookForGameSetupFiles>true</ImportDefaultLookForGameSetupFiles>
+    <ImportDefaultAutomaticallyMount>true</ImportDefaultAutomaticallyMount>
+    <ImportDefaultCinematicThemeVideo>true</ImportDefaultCinematicThemeVideo>
+    <ImportDefaultSteamTrailerVideo>false</ImportDefaultSteamTrailerVideo>
+    <UploadStarRatings>true</UploadStarRatings>
+    <ConsiderCommunityStarRatings>true</ConsiderCommunityStarRatings>
+    <MinimumCommunityRatingCountBeforeConsidering>5</MinimumCommunityRatingCountBeforeConsidering>
+    <ListViewOrderedColumnPriorities>Badges,Title,Platform,Developer,Publisher,Release Date,Rating,Genre,Series,Region,Play Mode,Version,Status,Source,Last Played,Added,Modified,Play Count,Favorite,Completed,Broken,Portable,Hide,Star Rating,Community Star Rating,Community Star Rating Count,Alternate Names,Wikipedia URL,Max Players,Release Type,Video URL,Installed,Application Path,Launchbox Database ID,Play Time</ListViewOrderedColumnPriorities>
+    <ListViewVisibleColumnIndexPriorities>33,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,34</ListViewVisibleColumnIndexPriorities>
+    <HideGamesMissingVideos>false</HideGamesMissingVideos>
+    <HideGamesMissingBoxFrontImage>false</HideGamesMissingBoxFrontImage>
+    <HideGamesMissingScreenshotImage>false</HideGamesMissingScreenshotImage>
+    <HideGamesMissingClearLogoImage>false</HideGamesMissingClearLogoImage>
+    <HideGamesMissingBackgroundImage>false</HideGamesMissingBackgroundImage>
+    <VolumeNext>75</VolumeNext>
+    <SideBarValueId>-Computers-Platform Category-Commodore 64-Platform</SideBarValueId>
+    <ControlsBarHeight>56</ControlsBarHeight>
+    <NextBoxSize>0.2</NextBoxSize>
+    <BoxBackgroundOpacity>230</BoxBackgroundOpacity>
+    <ColorizeBoxBackgroundsToMatchImages>true</ColorizeBoxBackgroundsToMatchImages>
+    <BoxTextOutlineOpacity>0</BoxTextOutlineOpacity>
+    <BoxAlignText>true</BoxAlignText>
+    <BoxTextOutlineThickness>0</BoxTextOutlineThickness>
+    <CenterText>false</CenterText>
+    <ShowSubline>true</ShowSubline>
+    <NextBoxSpacingHorizontal>35</NextBoxSpacingHorizontal>
+    <NextBoxSpacingVertical>25</NextBoxSpacingVertical>
+    <NextBoxPaddingHorizontal>12</NextBoxPaddingHorizontal>
+    <NextBoxPaddingVertical>12</NextBoxPaddingVertical>
+    <NextBoxTextSpacingVertical>10</NextBoxTextSpacingVertical>
+    <NextBoxTextLines>2</NextBoxTextLines>
+    <NextBoxAspectRatio>0.645</NextBoxAspectRatio>
+    <Theme>Beats</Theme>
+    <UseStartupScreen>false</UseStartupScreen>
+    <StartupTheme>Default</StartupTheme>
+    <MinimumStartupScreenDisplayTime>1000</MinimumStartupScreenDisplayTime>
+    <MinimumShutdownScreenDisplayTime>1000</MinimumShutdownScreenDisplayTime>
+    <HideMouseCursorOnStartupScreens>true</HideMouseCursorOnStartupScreens>
+    <MaxComboBoxItemCount>500</MaxComboBoxItemCount>
+    <PauseTheme>Default</PauseTheme>
+    <KeyboardGamePause>0</KeyboardGamePause>
+    <ControllerAutomationPauseButton>0</ControllerAutomationPauseButton>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseScreenMuting>true</PauseScreenMuting>
+    <PauseScreenFading>true</PauseScreenFading>
+    <HasAppendedSteamImageTypes>true</HasAppendedSteamImageTypes>
+    <HasAppendedGogImageTypes>true</HasAppendedGogImageTypes>
+    <ShowTextOnAllGames>false</ShowTextOnAllGames>
+    <BackgroundBlurAmount>50</BackgroundBlurAmount>
+    <EnableBoxShadows>true</EnableBoxShadows>
+    <DynamicBoxSizing>true</DynamicBoxSizing>
+    <ShowBadges>false</ShowBadges>
+    <EnabledBadges />
+    <GogLaunchWithClient>false</GogLaunchWithClient>
+    <OriginLaunchWithClient>false</OriginLaunchWithClient>
+    <DownloadMameCommunityHighScores>true</DownloadMameCommunityHighScores>
+    <UploadMameCommunityHighScores>false</UploadMameCommunityHighScores>
+    <ShowDetailMameAllTimeCommunityLeaderboard>true</ShowDetailMameAllTimeCommunityLeaderboard>
+    <ShowDetailMameYearlyCommunityLeaderboard>true</ShowDetailMameYearlyCommunityLeaderboard>
+    <ShowDetailMameMonthlyCommunityLeaderboard>true</ShowDetailMameMonthlyCommunityLeaderboard>
+    <ShowDetailMameWeeklyCommunityLeaderboard>true</ShowDetailMameWeeklyCommunityLeaderboard>
+    <HasAppendedEpicGamesImageTypes>true</HasAppendedEpicGamesImageTypes>
+    <HasAppendedUplayImageTypes>true</HasAppendedUplayImageTypes>
+    <HasAppendedOriginImageTypes>true</HasAppendedOriginImageTypes>
+    <HasAppendedAmazonImageTypes>true</HasAppendedAmazonImageTypes>
+    <HasAppendedAmazonPoster>true</HasAppendedAmazonPoster>
+    <VideoTypePriorities>Theme Video,Video Snap,Recording,Trailer</VideoTypePriorities>
+    <AutoAddObsRecordings>false</AutoAddObsRecordings>
+    <StartObsWithGames>false</StartObsWithGames>
+    <KeyboardScreenshot>0</KeyboardScreenshot>
+    <ShowDetailWikipediaUrl>true</ShowDetailWikipediaUrl>
+    <ShowDetailReleaseType>true</ShowDetailReleaseType>
+    <ShowDetailMaxPlayer>true</ShowDetailMaxPlayer>
+    <ShowDetailVideoUrl>true</ShowDetailVideoUrl>
+    <LedBlinkyUseAdvanced>false</LedBlinkyUseAdvanced>
+    <AlwaysShowSystemTrayIcon>false</AlwaysShowSystemTrayIcon>
+    <MinimizeToSystemTray>false</MinimizeToSystemTray>
+    <CloseToSystemTray>false</CloseToSystemTray>
+    <DontSendTrayReminder>false</DontSendTrayReminder>
+    <UseDeferredScrolling>false</UseDeferredScrolling>
+    <DialogAccentColor>-12491628</DialogAccentColor>
+    <DialogHighlightColor>-11776158</DialogHighlightColor>
+    <DialogBackgroundColor>-14013644</DialogBackgroundColor>
+    <DialogBorderColor>-14013644</DialogBorderColor>
+    <DialogForegroundColor>-986896</DialogForegroundColor>
+    <DialogContrastMultiplier>1</DialogContrastMultiplier>
+  </Settings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Compact Disc (CD)</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Arcade - Controls Information</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Origin Background</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - Front</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Steam Screenshot</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Origin Poster</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Screenshot - Gameplay</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Screenshot - Game Title</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - Back - Reconstructed</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Screenshot - Game Select</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Music</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Cart - Front</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Arcade - Controls Information</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Disc</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Clear Logo</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>GOG Screenshot</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Amazon Screenshot</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Cart - Front</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Arcade - Circuit Board</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Screenshot - Game Over</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Arcade - Cabinet</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Video - HD Gameplay (Highest Quality)</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Advertisement Flyer - Front</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Screenshot - High Scores</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Arcade - Cabinet</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Arcade - Marquee</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Amazon Background</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - Front - Reconstructed</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Screenshot - Gameplay</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Screenshot - Game Over</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Clear Logo</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Screenshot - Game Title</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Origin Screenshot</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Screenshot - High Scores</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Epic Games Poster</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Banner</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Epic Games Background</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Advertisement Flyer - Back</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Uplay Thumbnail</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Advertisement Flyer - Front</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Screenshot - Game Select</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Arcade - Circuit Board</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Amazon Poster</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Cart - 3D</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Video - Gameplay (High Quality)</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Box - Front</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Uplay Background</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Box - 3D</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Cart - Front</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Video - Theme</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Cart - Back</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - Back</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Box - Front</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Cart - Back</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Box - Back</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Cart - 3D</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Steam Banner</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Arcade - Marquee</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Floppy Disk</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Banner</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Fanart - Background</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Background</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Manual</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Arcade - Control Panel</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - 3D</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Arcade - Control Panel</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>GOG Poster</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Box - Back</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Disc</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Epic Games Screenshot</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Steam Poster</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Video - Gameplay (Low Quality)</ImageType>
+    <IsDefault>true</IsDefault>
+  </ImageTypeSettings>
+</LaunchBox>

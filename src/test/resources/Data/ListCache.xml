@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <ListCacheItem>
+    <PlaylistId>Computers</PlaylistId>
+    <LaunchBoxCount>1</LaunchBoxCount>
+    <BigBoxCount>1</BigBoxCount>
+    <LaunchBoxIncludeHidden>false</LaunchBoxIncludeHidden>
+    <BigBoxIncludeHidden>false</BigBoxIncludeHidden>
+    <LaunchBoxIncludeBroken>true</LaunchBoxIncludeBroken>
+    <BigBoxIncludeBroken>true</BigBoxIncludeBroken>
+    <LaunchBoxExcludeGamesMissingVideos>false</LaunchBoxExcludeGamesMissingVideos>
+    <BigBoxExcludeGamesMissingVideos>false</BigBoxExcludeGamesMissingVideos>
+    <LaunchBoxExcludeGamesMissingBoxFrontImage>false</LaunchBoxExcludeGamesMissingBoxFrontImage>
+    <BigBoxExcludeGamesMissingBoxFrontImage>false</BigBoxExcludeGamesMissingBoxFrontImage>
+    <LaunchBoxExcludeGamesMissingScreenshotImage>false</LaunchBoxExcludeGamesMissingScreenshotImage>
+    <BigBoxExcludeGamesMissingScreenshotImage>false</BigBoxExcludeGamesMissingScreenshotImage>
+    <LaunchBoxExcludeGamesMissingClearLogoImage>false</LaunchBoxExcludeGamesMissingClearLogoImage>
+    <BigBoxExcludeGamesMissingClearLogoImage>false</BigBoxExcludeGamesMissingClearLogoImage>
+    <LaunchBoxExcludeGamesMissingBackgroundImage>false</LaunchBoxExcludeGamesMissingBackgroundImage>
+    <BigBoxExcludeGamesMissingBackgroundImage>false</BigBoxExcludeGamesMissingBackgroundImage>
+  </ListCacheItem>
+</LaunchBox>

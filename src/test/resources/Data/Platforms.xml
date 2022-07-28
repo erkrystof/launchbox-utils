@@ -1,0 +1,321 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Platform>
+    <Category />
+    <LocalDbParsed>true</LocalDbParsed>
+    <Name>Commodore 64</Name>
+    <LastSelectedChild />
+    <ReleaseDate>1982-01-01T02:00:00-06:00</ReleaseDate>
+    <Developer>Commodore Business Machines</Developer>
+    <Manufacturer>Commodore Business Machines</Manufacturer>
+    <Cpu>MOS Technology 6510</Cpu>
+    <Memory>64 KB RAM and 20 KB ROM</Memory>
+    <Graphics>MOS Technology VIC-ll</Graphics>
+    <Sound>MOS Technology 6581/8580 SID</Sound>
+    <Display>320x200</Display>
+    <Media>Cartridge, Tape, Floppy optional</Media>
+    <MaxControllers>2</MaxControllers>
+    <Folder>Roms To Trick Import</Folder>
+    <Notes>The Commodore 64 is an 8-bit home computer introduced in January 1982 by Commodore International. It is listed in the Guinness World Records as the highest-selling single computer model of all time, with independent estimates placing the number sold between 10 and 17 million units. Volume production started in early 1982, marketing in August for US$595 (equivalent to $1,461 in 2015). Preceded by the Commodore VIC-20 and Commodore PET, the C64 took its name from its 64 kilobytes (65,536 bytes) of RAM. It had superior sound and graphical specifications compared to other earlier systems such as the Apple II and Atari 800, with multi-color sprites and a more advanced sound processor.</Notes>
+    <VideosFolder />
+    <FrontImagesFolder />
+    <BackImagesFolder />
+    <ClearLogoImagesFolder />
+    <FanartImagesFolder />
+    <ScreenshotImagesFolder />
+    <BannerImagesFolder />
+    <SteamBannerImagesFolder />
+    <ManualsFolder />
+    <MusicFolder />
+    <ScrapeAs />
+    <VideoPath />
+    <ImageType />
+    <SortTitle />
+    <LastGameId />
+    <BigBoxView />
+    <BigBoxTheme />
+    <AndroidThemeVideoPath />
+  </Platform>
+  <PlatformFolder>
+    <MediaType>Box - Front</MediaType>
+    <FolderPath>Images\Commodore 64\Box - Front</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Box - Front - Reconstructed</MediaType>
+    <FolderPath>Images\Commodore 64\Box - Front - Reconstructed</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Box - Back</MediaType>
+    <FolderPath>Images\Commodore 64\Box - Back</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Box - Back - Reconstructed</MediaType>
+    <FolderPath>Images\Commodore 64\Box - Back - Reconstructed</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Box - 3D</MediaType>
+    <FolderPath>Images\Commodore 64\Box - 3D</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Advertisement Flyer - Front</MediaType>
+    <FolderPath>Images\Commodore 64\Advertisement Flyer - Front</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Advertisement Flyer - Back</MediaType>
+    <FolderPath>Images\Commodore 64\Advertisement Flyer - Back</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Arcade - Cabinet</MediaType>
+    <FolderPath>Images\Commodore 64\Arcade - Cabinet</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Arcade - Circuit Board</MediaType>
+    <FolderPath>Images\Commodore 64\Arcade - Circuit Board</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Arcade - Control Panel</MediaType>
+    <FolderPath>Images\Commodore 64\Arcade - Control Panel</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Arcade - Controls Information</MediaType>
+    <FolderPath>Images\Commodore 64\Arcade - Controls Information</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Arcade - Marquee</MediaType>
+    <FolderPath>Images\Commodore 64\Arcade - Marquee</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Banner</MediaType>
+    <FolderPath>Images\Commodore 64\Banner</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Cart - Front</MediaType>
+    <FolderPath>Images\Commodore 64\Cart - Front</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Cart - Back</MediaType>
+    <FolderPath>Images\Commodore 64\Cart - Back</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Cart - 3D</MediaType>
+    <FolderPath>Images\Commodore 64\Cart - 3D</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Clear Logo</MediaType>
+    <FolderPath>Images\Commodore 64\Clear Logo</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Disc</MediaType>
+    <FolderPath>Images\Commodore 64\Disc</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Fanart - Box - Front</MediaType>
+    <FolderPath>Images\Commodore 64\Fanart - Box - Front</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Fanart - Box - Back</MediaType>
+    <FolderPath>Images\Commodore 64\Fanart - Box - Back</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Fanart - Cart - Front</MediaType>
+    <FolderPath>Images\Commodore 64\Fanart - Cart - Front</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Fanart - Cart - Back</MediaType>
+    <FolderPath>Images\Commodore 64\Fanart - Cart - Back</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Fanart - Background</MediaType>
+    <FolderPath>Images\Commodore 64\Fanart - Background</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Fanart - Disc</MediaType>
+    <FolderPath>Images\Commodore 64\Fanart - Disc</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Screenshot - Gameplay</MediaType>
+    <FolderPath>Images\Commodore 64\Screenshot - Gameplay</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Screenshot - Game Title</MediaType>
+    <FolderPath>Images\Commodore 64\Screenshot - Game Title</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Screenshot - Game Select</MediaType>
+    <FolderPath>Images\Commodore 64\Screenshot - Game Select</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Screenshot - Game Over</MediaType>
+    <FolderPath>Images\Commodore 64\Screenshot - Game Over</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Screenshot - High Scores</MediaType>
+    <FolderPath>Images\Commodore 64\Screenshot - High Scores</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Steam Banner</MediaType>
+    <FolderPath>Images\Commodore 64\Steam Banner</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Steam Poster</MediaType>
+    <FolderPath>Images\Commodore 64\Steam Poster</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Steam Screenshot</MediaType>
+    <FolderPath>Images\Commodore 64\Steam Screenshot</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>GOG Poster</MediaType>
+    <FolderPath>Images\Commodore 64\GOG Poster</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>GOG Screenshot</MediaType>
+    <FolderPath>Images\Commodore 64\GOG Screenshot</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Epic Games Background</MediaType>
+    <FolderPath>Images\Commodore 64\Epic Games Background</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Epic Games Poster</MediaType>
+    <FolderPath>Images\Commodore 64\Epic Games Poster</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Epic Games Screenshot</MediaType>
+    <FolderPath>Images\Commodore 64\Epic Games Screenshot</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Origin Background</MediaType>
+    <FolderPath>Images\Commodore 64\Origin Background</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Origin Poster</MediaType>
+    <FolderPath>Images\Commodore 64\Origin Poster</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Origin Screenshot</MediaType>
+    <FolderPath>Images\Commodore 64\Origin Screenshot</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Uplay Background</MediaType>
+    <FolderPath>Images\Commodore 64\Uplay Background</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Uplay Thumbnail</MediaType>
+    <FolderPath>Images\Commodore 64\Uplay Thumbnail</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Amazon Background</MediaType>
+    <FolderPath>Images\Commodore 64\Amazon Background</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Amazon Screenshot</MediaType>
+    <FolderPath>Images\Commodore 64\Amazon Screenshot</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Amazon Poster</MediaType>
+    <FolderPath>Images\Commodore 64\Amazon Poster</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Video</MediaType>
+    <FolderPath>Videos\Commodore 64</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Theme Video</MediaType>
+    <FolderPath>Videos\Commodore 64\Theme</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Manual</MediaType>
+    <FolderPath>Manuals\Commodore 64</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformFolder>
+    <MediaType>Music</MediaType>
+    <FolderPath>Music\Commodore 64</FolderPath>
+    <Platform>Commodore 64</Platform>
+  </PlatformFolder>
+  <PlatformCategory>
+    <Name>Computers</Name>
+    <NestedName>Computers</NestedName>
+    <Notes>Home computers were a class of microcomputers entering the market in 1977, and becoming common during the 1980s. They were marketed to consumers as affordable and accessible computers that, for the first time, were intended for the use of a single nontechnical user. These computers were a distinct market segment that typically cost much less than business, scientific or engineering-oriented computers of the time such as the IBM PC, and were generally less powerful in terms of memory and expandability. However, a home computer often had better graphics and sound than contemporaneous business computers. Their most common uses were playing video games, but they were also regularly used for word processing, doing homework, and programming.</Notes>
+    <VideoPath />
+    <SortTitle />
+    <IsAutogenerated>false</IsAutogenerated>
+    <ImageType />
+    <Category />
+    <LastGameId />
+    <BigBoxView />
+    <LocalDbParsed>false</LocalDbParsed>
+    <Developer />
+    <Manufacturer />
+    <Cpu />
+    <Memory />
+    <Graphics />
+    <Sound />
+    <Display />
+    <Media />
+    <MaxControllers />
+    <Folder />
+    <VideosFolder />
+    <FrontImagesFolder />
+    <BackImagesFolder />
+    <ClearLogoImagesFolder />
+    <FanartImagesFolder />
+    <ScreenshotImagesFolder />
+    <BannerImagesFolder />
+    <SteamBannerImagesFolder />
+    <ManualsFolder />
+    <MusicFolder />
+    <ScrapeAs />
+    <BigBoxTheme />
+    <LastSelectedChild />
+    <AndroidThemeVideoPath />
+  </PlatformCategory>
+</LaunchBox>

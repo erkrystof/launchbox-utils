@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Parent>
+    <PlatformName>Commodore 64</PlatformName>
+    <ParentPlatformCategoryName>Computers</ParentPlatformCategoryName>
+  </Parent>
+  <Parent>
+    <PlatformCategoryName>Computers</PlatformCategoryName>
+  </Parent>
+</LaunchBox>
