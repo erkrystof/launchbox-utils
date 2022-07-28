@@ -65,12 +65,16 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+			</plugin>
 		</plugins>
 	</build>
 	<scm>
 		<connection>scm:git:https://github.com/erkrystof/launchbox-utils.git</connection>
 		<developerConnection>scm:git:https://github.com/erkrystof/launchbox-utils.git</developerConnection>
 		<url>https://github.com/erkrystof/launchbox-utils.git</url>
+		<tag>HEAD</tag>
 	</scm>
 
 </project>
