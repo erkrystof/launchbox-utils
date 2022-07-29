@@ -28,3 +28,5 @@ Example usage:
 			});
 	
 		}
+
+The target jar is small, but the project is large as there are images in the test resources folders for testing.
