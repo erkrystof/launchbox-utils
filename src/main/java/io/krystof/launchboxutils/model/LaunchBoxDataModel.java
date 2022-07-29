@@ -33,4 +33,5 @@ public class LaunchBoxDataModel {
 	public void setPlatformGameDataByPlatformName(Map<String, PlatformGameData> platformGameDataByPlatformName) {
 		this.platformGameDataByPlatformName = platformGameDataByPlatformName;
 	}
+
 }

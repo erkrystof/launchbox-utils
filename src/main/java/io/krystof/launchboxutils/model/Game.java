@@ -1,12 +1,16 @@
 package io.krystof.launchboxutils.model;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import org.pojomatic.Pojomatic;
 import org.pojomatic.annotations.AutoProperty;
+
+import io.krystof.launchboxutils.imagepaths.ImagePathData;
 
 @AutoProperty
 public class Game {
@@ -36,6 +40,8 @@ public class Game {
 	private Integer releaseYear;
 
 	private String notes;
+
+	List<ImagePathData> imagePathData = new ArrayList<>();
 
 	@Override
 	public boolean equals(Object o) {
@@ -156,6 +162,14 @@ public class Game {
 
 	public void setReleaseYear(Integer releaseYear) {
 		this.releaseYear = releaseYear;
+	}
+
+	public List<ImagePathData> getImagePathData() {
+		return imagePathData;
+	}
+
+	public void setImagePathData(List<ImagePathData> imagePathData) {
+		this.imagePathData = imagePathData;
 	}
 
 }

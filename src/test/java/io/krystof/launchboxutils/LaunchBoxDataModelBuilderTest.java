@@ -24,6 +24,10 @@ class LaunchBoxDataModelBuilderTest {
 		model.getPlatformGameDataByPlatformName().entrySet().forEach(entry -> {
 			LOG.info("Games for Platform: {}, {}", entry.getKey(), entry.getValue().getGames().size());
 			assertEquals(entry.getKey(), entry.getValue().getPlatformName());
+			entry.getValue().getGames().forEach(game -> {
+				LOG.info("\t{} will use image type: {}", game.getTitle(),
+						game.getImagePathData().get(0).getImageTypeString());
+			});
 		});
 		
 	}
