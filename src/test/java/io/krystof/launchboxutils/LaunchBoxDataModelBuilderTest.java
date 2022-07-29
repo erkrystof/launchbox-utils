@@ -25,11 +25,31 @@ class LaunchBoxDataModelBuilderTest {
 			LOG.info("Games for Platform: {}, {}", entry.getKey(), entry.getValue().getGames().size());
 			assertEquals(entry.getKey(), entry.getValue().getPlatformName());
 			entry.getValue().getGames().forEach(game -> {
-				LOG.info("\t{} will use image type: {}", game.getTitle(),
-						game.getImagePathData().get(0).getImageTypeString());
+				LOG.info("\t{} will use image type: {} and region: {} and file: {}", game.getTitle(),
+						game.getImagePathData().get(0).getImageTypeString(),
+						game.getImagePathData().get(0).getRegionTypeString().orElse("N/A"),
+						game.getImagePathData().get(0).getRelativePath().getFileName().toString());
 			});
 		});
 		
+	}
+
+	void testLocalInstall() throws URISyntaxException {
+		Path path = Paths.get("H:\\LaunchBoxForRetroListBuilding");
+		LaunchBoxDataModel model = new LaunchBoxDataModelBuilder().withLaunchBoxRootPath(path).build();
+
+		LOG.info("Platforms count: {}", model.getPlatformGameDataByPlatformName().size());
+		model.getPlatformGameDataByPlatformName().entrySet().forEach(entry -> {
+			LOG.info("Games for Platform: {}, {}", entry.getKey(), entry.getValue().getGames().size());
+			assertEquals(entry.getKey(), entry.getValue().getPlatformName());
+			entry.getValue().getGames().forEach(game -> {
+				LOG.info("\t{} will use image type: {} and region: {} and file: {}", game.getTitle(),
+						game.getImagePathData().get(0).getImageTypeString(),
+						game.getImagePathData().get(0).getRegionTypeString().orElse("N/A"),
+						game.getImagePathData().get(0).getRelativePath().getFileName().toString());
+			});
+		});
+
 	}
 
 }

@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FilenameFilter;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -20,6 +21,11 @@ import io.krystof.launchboxutils.model.LaunchBoxDataModel;
 import io.krystof.launchboxutils.model.RegionType;
 import io.krystof.launchboxutils.parser.PlatformsFileXmlParser;
 
+/**
+ * Loads from a root directory of launch box (e.g. c:\launchbox) into various
+ * object files. Image files are attached to the Game model object, ordered by
+ * preferences set into the builder (there are some defaults)
+ */
 public class LaunchBoxDataModelBuilder {
 
 	private Path launchBoxRootPath;
@@ -119,6 +125,9 @@ public class LaunchBoxDataModelBuilder {
 			String platformName = StringUtils.substringBeforeLast(platformFile.getName(), ".");
 			dataModel.getPlatformGameDataByPlatformName().put(platformName, platformXmlDtoToPlatformGameDataConverter
 					.apply(platformsFileXmlParser.parse(platformFile.toPath()), platformName));
+			Collections.sort(dataModel.getPlatformGameDataByPlatformName().get(platformName).getGames(), (g1, g2) -> {
+				return StringUtils.compare(g1.getTitle(), g2.getTitle());
+			});
 		}
 
 	}
