@@ -20,16 +20,16 @@ public class PlatformXmlDtoToPlatformGameDataConverter
 		pgd.setPlatformName(fileNameAsPlatform);
 		for (GameXmlDto gameXmlDto : platformFileXmlDto.getGames()) {
 			Game game = new Game();
-			game.setDatabaseId(gameXmlDto.getDatabaseId());
+			game.setDatabaseId(sanitize(gameXmlDto.getDatabaseId()));
 			game.setDevelopers(convertStringToSet(gameXmlDto.getDeveloper()));
-			game.setId(gameXmlDto.getId());
-			game.setNotes(gameXmlDto.getNotes());
-			game.setPlatform(gameXmlDto.getPlatform());
+			game.setId(sanitize(gameXmlDto.getId()));
+			game.setNotes(sanitize(gameXmlDto.getNotes()));
+			game.setPlatform(sanitize(gameXmlDto.getPlatform()));
 			game.setPublishers(convertStringToSet(gameXmlDto.getPublisher()));
-			game.setTitle(gameXmlDto.getTitle());
-			game.setVideoUrl(gameXmlDto.getVideoUrl());
-			game.setWikipediaUrl(gameXmlDto.getWikipediaUrl());
-			game.setSeries(gameXmlDto.getSeries());
+			game.setTitle(sanitize(gameXmlDto.getTitle()));
+			game.setVideoUrl(sanitize(gameXmlDto.getVideoUrl()));
+			game.setWikipediaUrl(sanitize(gameXmlDto.getWikipediaUrl()));
+			game.setSeries(sanitize(gameXmlDto.getSeries()));
 			game.setGenres(convertStringToSet(gameXmlDto.getGenre()));
 			if (StringUtils.isNotBlank(gameXmlDto.getReleaseDate())) {
 				game.setReleaseYear(Integer.parseInt(StringUtils.substringBefore(gameXmlDto.getReleaseDate(), "-")));
@@ -37,11 +37,15 @@ public class PlatformXmlDtoToPlatformGameDataConverter
 
 			platformFileXmlDto.getCustomFields().stream().filter(cf -> cf.getGameId().equals(game.getId()))
 					.forEach(cf -> {
-						game.getCustomFields().put(cf.getName(), cf.getValue());
+						game.getCustomFields().put(cf.getName(), sanitize(cf.getValue()));
 					});
 			pgd.getGames().add(game);
 		}
 		return pgd;
+	}
+
+	private String sanitize(String string) {
+		return StringUtils.isNotEmpty(string) ? StringUtils.trim(string) : null;
 	}
 
 	private Set<String> convertStringToSet(String rawString) {

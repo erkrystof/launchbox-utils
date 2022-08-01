@@ -15,6 +15,8 @@ import io.krystof.launchboxutils.imagepaths.ImagePathData;
 @AutoProperty
 public class Game {
 
+	public static final String CUSTOM_FIELD_KEY_SERIES_INDEX = "SeriesIndex";
+
 	private String title;
 
 	private String id;
