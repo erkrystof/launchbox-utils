@@ -76,9 +76,13 @@ public class LaunchBoxDataModelBuilder {
 
 		LaunchBoxDataModel dataModel = new LaunchBoxDataModel();
 
+		LOG.info("Loading platform files");
 		loadPlatformFiles(dataModel);
 
+		LOG.info("Loading image references");
 		loadImageReferences(dataModel);
+
+		LOG.info("LB data model complete.");
 
 		return dataModel;
 	}
