@@ -44,6 +44,9 @@ public class GameXmlDto {
 	@JsonProperty("ReleaseDate")
 	private String releaseDate;
 
+	@JsonProperty("Favorite")
+	private boolean favorite;
+
 	@Override
 	public boolean equals(Object o) {
 		return Pojomatic.equals(this, o);
@@ -154,5 +157,13 @@ public class GameXmlDto {
 
 	public void setReleaseDate(String releaseDate) {
 		this.releaseDate = releaseDate;
+	}
+
+	public boolean isFavorite() {
+		return favorite;
+	}
+
+	public void setFavorite(boolean favorite) {
+		this.favorite = favorite;
 	}
 }

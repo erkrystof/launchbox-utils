@@ -17,6 +17,8 @@ public class Game {
 
 	public static final String CUSTOM_FIELD_KEY_SERIES_INDEX = "SeriesIndex";
 
+	public static final String CUSTOM_FIELD_PORT_IDENTIFIER = "PortIdentifier";
+
 	private String title;
 
 	private String id;
@@ -44,6 +46,8 @@ public class Game {
 	private String notes;
 
 	List<ImagePathData> imagePathData = new ArrayList<>();
+
+	private boolean favorite;
 
 	@Override
 	public boolean equals(Object o) {
@@ -172,6 +176,14 @@ public class Game {
 
 	public void setImagePathData(List<ImagePathData> imagePathData) {
 		this.imagePathData = imagePathData;
+	}
+
+	public boolean isFavorite() {
+		return favorite;
+	}
+
+	public void setFavorite(boolean favorite) {
+		this.favorite = favorite;
 	}
 
 }

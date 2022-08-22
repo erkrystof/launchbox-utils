@@ -31,6 +31,7 @@ public class PlatformXmlDtoToPlatformGameDataConverter
 			game.setWikipediaUrl(sanitize(gameXmlDto.getWikipediaUrl()));
 			game.setSeries(sanitize(gameXmlDto.getSeries()));
 			game.setGenres(convertStringToSet(gameXmlDto.getGenre()));
+			game.setFavorite(gameXmlDto.isFavorite());
 			if (StringUtils.isNotBlank(gameXmlDto.getReleaseDate())) {
 				game.setReleaseYear(Integer.parseInt(StringUtils.substringBefore(gameXmlDto.getReleaseDate(), "-")));
 			}
