@@ -6,7 +6,7 @@ import java.util.Map;
 
 public enum ImageType {
 
-	BOX_FRONT("Box - Front");
+	BOX_FRONT("Box - Front"), GOG_POSTER("GOG Poster");
 
 	private final String pathName;
 

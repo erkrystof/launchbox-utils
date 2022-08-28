@@ -32,7 +32,8 @@ public class LaunchBoxDataModelBuilder {
 
 	private static final Logger LOG = LoggerFactory.getLogger(LaunchBoxDataModelBuilder.class);
 
-	List<String> imageTypeOrderPreference = Arrays.asList(ImageType.BOX_FRONT.getPathName());
+	List<String> imageTypeOrderPreference = Arrays.asList(ImageType.BOX_FRONT.getPathName(),
+			ImageType.GOG_POSTER.getPathName());
 
 	List<String> regionOrderPreference = Arrays.asList(RegionType.ROOT.getPathName(),
 			RegionType.UNITED_STATES.getPathName(),
