@@ -47,6 +47,9 @@ public class GameXmlDto {
 	@JsonProperty("Favorite")
 	private boolean favorite;
 
+	@JsonProperty("StarRating")
+	private Integer starRating;
+
 	@Override
 	public boolean equals(Object o) {
 		return Pojomatic.equals(this, o);
@@ -165,5 +168,13 @@ public class GameXmlDto {
 
 	public void setFavorite(boolean favorite) {
 		this.favorite = favorite;
+	}
+
+	public Integer getStarRating() {
+		return starRating;
+	}
+
+	public void setStarRating(Integer starRating) {
+		this.starRating = starRating;
 	}
 }

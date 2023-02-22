@@ -32,6 +32,7 @@ public class PlatformXmlDtoToPlatformGameDataConverter
 			game.setSeries(sanitize(gameXmlDto.getSeries()));
 			game.setGenres(convertStringToSet(gameXmlDto.getGenre()));
 			game.setFavorite(gameXmlDto.isFavorite());
+			game.setStarRating(gameXmlDto.getStarRating());
 			if (StringUtils.isNotBlank(gameXmlDto.getReleaseDate())) {
 				game.setReleaseYear(Integer.parseInt(StringUtils.substringBefore(gameXmlDto.getReleaseDate(), "-")));
 			}
